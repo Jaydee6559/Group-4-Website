@@ -4,11 +4,11 @@ document.addEventListener("DOMContentLoaded", function () {
   const mobileMenu = document.createElement("div");
   mobileMenu.className = "mobile-menu";
   mobileMenu.innerHTML = `
-        <a href="homepage.html">Home</a>
-        <a href="homepage.html#about" class="active">About</a>
+        <a href="index.html">Home</a>
+        <a href="index.html#about" class="active">About</a>
         <a href="admission.html">Admissions</a>
-        <a href="homepage.html#about">Team</a>
-        <a href="homepage.html#contact">Contact</a>
+        <a href="index.html#team">Team</a>
+        <a href="index.html#contact">Contact</a>
       `;
   document.body.appendChild(mobileMenu);
 
@@ -44,3 +44,4 @@ document.addEventListener("DOMContentLoaded", function () {
     profileCircle.href = "login.html";
   }
 });
+
